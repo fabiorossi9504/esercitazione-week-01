@@ -1,0 +1,80 @@
+/* variabili  */
+
+:root {
+    --dark-brown: rgb(98,91,78);
+    --light-brown: rgb(170,142,109);
+    --custom-black: rgb(18, 18, 18);
+ }
+
+ /* fine variabili */
+
+.menu {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 500;
+    font-weight: bolder;
+    text-align: end;
+    margin-top: 20px;
+    text-decoration: underline solid 1px var(--custom-black);
+}
+
+body {
+    background-color: rgb(191, 191, 173);
+    font-family: 'Merriweather', serif;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: var(--custom-black);
+}
+
+
+.fa-solid, fa-square {
+    font-size: xx-small;
+    margin-right: 15px;
+}
+
+ul {
+    list-style-type:none;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+h1 , h3, h4, h2, h5{
+    color: var(--custom-black);
+    font-family: 'Playfair Display SC', serif;
+}
+
+h4 {
+    margin-bottom: 5px ;
+}
+
+h2 {
+    margin-top: 75px;
+}
+
+
+
+.container {
+    background-color: var(--light-brown);
+    height: 1000px;
+    width: 250px;
+    position: absolute;
+}
+
+.profile-pic {
+    position: relative;
+    margin: 25px;
+    border: solid 3px var(--dark-brown);
+}
+
+.inner-container {
+    position: relative;
+    margin: 25px;
+    height: 850px;
+    width: 200px;
+}
+
+.profile-aside {
+    margin-left: 300px;
+    margin-top: 50px;
+}
