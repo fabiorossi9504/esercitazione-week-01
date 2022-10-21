@@ -5,7 +5,7 @@
     --light-brown: rgb(170,142,109);
     --custom-black: rgb(18, 18, 18);
  }
-
+ 
  /* fine variabili */
 
 .menu {
@@ -18,17 +18,23 @@
 }
 
 body {
-    background-color: rgb(191, 191, 173);
+    background-color: rgb(240, 236, 229);
     font-family: 'Merriweather', serif;
     margin-left: 300px;
     margin-right: 300px;
     color: var(--custom-black);
 }
 
+a {
+    margin: 15px;
+    text-decoration: none;
+    color: var(--custom-black);
+}
 
 .fa-solid, fa-square {
     font-size: xx-small;
     margin-right: 15px;
+    color: var(--dark-brown);
 }
 
 ul {
@@ -37,10 +43,11 @@ ul {
 
 h1 {
     margin-bottom: 10px;
+    color: var(--custom-black);
 }
 
-h1 , h3, h4, h2, h5{
-    color: var(--custom-black);
+h2, h3, h5{
+    color: var(--dark-brown);
     font-family: 'Playfair Display SC', serif;
 }
 
